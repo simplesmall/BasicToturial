@@ -31,7 +31,7 @@ func TestShortVar() {
 
 //指针声明 var name *T
 func PointTest() {
-	name := "aoho"
+	name := "simple"
 	// get pointer value
 	p := &name
 	fmt.Println("Name is : ", *p)
